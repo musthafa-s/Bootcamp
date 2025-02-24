@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Blog Post</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .meta {
+            font-size: 1rem;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        .meta span {
+            margin-right: 20px;
+        }
+
+        p {
+            font-size: 1.125rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .meta {
+                font-size: 0.9rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            .meta {
+                font-size: 0.85rem;
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Exploring the Future of Web Development</h1>
+        <div class="meta">
+            <span>By Jane Doe</span>
+            <span>February 18, 2025</span>
+        </div>
+
+        <p>Web development has undergone significant changes over the years, evolving from simple static pages to complex, interactive applications. With the rapid pace of technological advancements, developers have to keep up with new tools, frameworks, and methodologies to stay relevant in the industry. This blog post will explore some of the latest trends shaping the future of web development.</p>
+
+        <p>One of the most significant changes is the rise of JavaScript frameworks like React, Vue, and Angular. These libraries and frameworks have streamlined the process of building dynamic, single-page applications (SPAs) that offer users a smooth, app-like experience. Moreover, serverless architecture is becoming more popular, allowing developers to focus on writing code without worrying about infrastructure management.</p>
+
+        <p>Another exciting trend is the growing importance of web performance and accessibility. Developers are putting more emphasis on optimizing websites to load faster, especially on mobile devices, as well as ensuring that all users, including those with disabilities, can access and navigate web content with ease. As web development continues to evolve, it's essential for developers to embrace these trends to create better, more inclusive digital experiences for everyone.</p>
+    </div>
+
+</body>
+</html>
